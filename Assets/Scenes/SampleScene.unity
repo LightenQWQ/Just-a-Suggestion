@@ -144,17 +144,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23255614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 790691122}
+  m_Father: {fileID: 1424520991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -486.51, y: -484.52}
-  m_SizeDelta: {x: 946.97, y: 110.97}
+  m_AnchoredPosition: {x: -23.789482, y: -7.6927}
+  m_SizeDelta: {x: 912.4111, y: 74.8924}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23255616
 MonoBehaviour:
@@ -185,8 +185,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -206,12 +206,12 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
-  m_SizeDelta: {x: -20, y: -13}
+  m_AnchoredPosition: {x: -57.9874, y: -1.0886}
+  m_SizeDelta: {x: -285.9938, y: -71.3666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64143130
 MonoBehaviour:
@@ -521,15 +521,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6698113, b: 0.6698113, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 8611740157400686802, guid: 79c54a15a7e68a54a8ce1e8d6646a39a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -563,8 +563,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 880, y: -484.64}
-  m_SizeDelta: {x: 160, y: 110.72}
+  m_AnchoredPosition: {x: 836, y: -465.03}
+  m_SizeDelta: {x: 165.5632, y: 83.3576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &429456424
 GameObject:
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: a90e94d1d42a4bb4e91dd867efba1e93, type: 3}
+  m_Texture: {fileID: 2800000, guid: a4b8adb4e3bd7f24ea6d31f05be05f15, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -840,8 +840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 81.304115, y: 53.8164}
-  m_SizeDelta: {x: 2082.6074, y: 966.1747}
+  m_AnchoredPosition: {x: 0.00016022, y: 76.507}
+  m_SizeDelta: {x: 1920, y: 920.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &619394800
 GameObject:
@@ -1179,11 +1179,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 557575844}
+  - {fileID: 1424520991}
   - {fileID: 942206470}
   - {fileID: 264667364}
-  - {fileID: 1945633601}
-  - {fileID: 23255615}
+  - {fileID: 557575844}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1238,8 +1237,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1256,15 +1255,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1325,8 +1324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0002670288}
+  m_SizeDelta: {x: 0, y: -0.00047302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &942206466
 GameObject:
@@ -1404,7 +1403,7 @@ MonoBehaviour:
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
-  m_GlobalPointSize: 14
+  m_GlobalPointSize: 30
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -1468,8 +1467,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -6056102216732570190, guid: a74ce592da9321746aeb26632cbff315, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1493,7 +1492,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942206466}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1503,9 +1502,85 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393.49, y: -484.64}
-  m_SizeDelta: {x: 813.03, y: 110.73}
+  m_AnchoredPosition: {x: 493.36, y: -469.23087}
+  m_SizeDelta: {x: 933.29, y: 170.6843}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1424520990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424520991}
+  - component: {fileID: 1424520993}
+  - component: {fileID: 1424520992}
+  m_Layer: 5
+  m_Name: DialoguePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1424520991
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424520990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 23255615}
+  m_Father: {fileID: 790691122}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -448.1875, y: -459.77264}
+  m_SizeDelta: {x: 1023.665, y: 172.8047}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1424520992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424520990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6893308443034365055, guid: ba4457fcecf3cf448bad3a99330891fc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1424520993
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424520990}
+  m_CullTransparentMesh: 1
 --- !u!1 &1945633600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,11 +1607,11 @@ Transform:
   m_GameObject: {fileID: 1945633600}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 68.85791, y: -63.388092, z: 0}
+  m_LocalPosition: {x: 1028.8579, y: 476.6119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 790691122}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1945633602
 MonoBehaviour:
@@ -1554,21 +1629,29 @@ MonoBehaviour:
   dialogueText: {fileID: 23255616}
   playerInput: {fileID: 942206467}
   sendButton: {fileID: 264667361}
+  startImage: {fileID: 2800000, guid: a4b8adb4e3bd7f24ea6d31f05be05f15, type: 3}
   ollamaUrl: http://localhost:11434/api/generate
   ollamaModelName: llama3
   sdApiUrl: http://127.0.0.1:7860/sdapi/v1/txt2img
-  baseStylePrompt: '(sepia tone:1.3), monochrome, vintage comic book style, gritty
-    texture, heavy ink lines, cross-hatching, film noir atmosphere, dramatic lighting,
-    heavy shadows, high contrast, psychological horror, suspense, (masterpiece, best
-    quality:1.2), comic panel layout,(sepia tone:1.3), monochrome, (manga style:1.4),
-    (sharp ink lines:1.3), G-pen, vector art, cell shading, flat color, comic book
-    panel, high contrast, gritty, masterpiece, best quality, '
-  characterPrompt: '1boy, young teenager, messy dark hair, wearing tattered hoodie, '
-  negativePrompt: color, vibrant, 3d, realistic, cgi, photorealistic, blurry, bright,
-    happy, comedy, bad anatomy, extra limbs, watermark, text, speech bubble, low
-    quality, smooth skinsketch, charcoal, graphite, pencil, smudge, blurry, soft
-    focus, realistic, photorealistic, 3d, cgi, oil painting, watercolor, bad anatomy,
-    text, watermark, gray background, dirty
+  baseStylePrompt: '(manga style:1.5), (monochrome:1.5), (grayscale:1.5), (black
+    and white horror manga:1.4), (high contrast:1.4), (heavy ink lines:1.4), (cross-hatching:1.3),
+    (gritty texture:1.3), film grain, screentone, dirty vignette, old worn paper,
+    dramatic lighting, intense shadows, psychological horror atmosphere, claustrophobic
+    small bedroom, messy floor with scattered books and trash, detailed background,
+    cinematic composition, masterpiece, best quality, sharp focus '
+  characterFacePrompt: 'teenage boy, 12-15 years old, skinny body, messy medium-length
+    black hair covering forehead, pale skin, slightly hollow cheeks, small nose,
+    thin lips, closed eyes, calm unconscious expression, lying on his back on the
+    floor, consistent face:1.3 '
+  currentClothes: 'wearing wrinkled dirty white t-shirt, loose black shorts, bare
+    legs, barefoot, thin arms and legs, simple casual clothes, slightly torn and
+    stained fabric '
+  negativePrompt: (sepia:1.5), (brown:1.5), (yellow:1.5), (color:1.5), colorful,
+    3d, realistic, cgi, photorealistic, soft lighting, blurry, bad anatomy, extra
+    limbs, extra fingers, watermark, logo, text, speech bubble, subtitle, ui, low
+    quality, lowres, jpeg artifacts, smooth clean skin, glossy, watercolor, bright,
+    happy, cartoon, chibi, cute, kawaii, moe, vector art, flat color, cell shading,
+    vibrant color, colored manga
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1576,4 +1659,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 429456427}
+  - {fileID: 1945633601}
   - {fileID: 790691122}
